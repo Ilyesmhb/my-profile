@@ -1,0 +1,85 @@
+body { 
+	color: #03045E;
+	text-align: center;
+    font-weight: lighter;
+     font-size: 20px; 
+ 	font-weight: bolder;
+    background-image:url(/my-profile/Snk-fond.png);
+    background-color: #F7F7F7;
+ }
+ h2 {font-size: 30px;
+ 	text-decoration:none;
+    color: #00B4D8}
+
+h1 {color:#00B4D8;
+font-size: 40px;}
+
+
+
+/*Images*/
+
+#pdp {width: 300px;
+box-shadow: 5px 10px 10px black;
+border-radius: 30px;}
+#mangaimage  {width: 300px;
+border-radius: 30px;}
+#sportimage{width: 400px;
+ border-radius: 30px;}
+#saxoimage{width: 400px;
+    border-radius: 30px;}
+#titre p {margin-bottom: 40px;}
+#sport h2 {margin-top: 10px;}
+#socialnet a {padding: 0px 10px;}
+
+/*Customisation avec class*/
+
+.card-white{
+    background-color: white;
+    padding: 40px 50px;
+    transition:box-shadow 0.3s ease;
+    border-radius: 4px;
+    margin: 40px 50px;
+}
+.card-white:hover{box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2)}
+
+
+.container {width: 900px;
+    margin: 40px auto;
+ 
+}
+
+
+.btn-blue {
+    background-color: #00B4D8 ;
+    color: white;
+    padding: 15px 20px;
+     border-radius: 4px;
+     transition:background-color 0.3s ease;
+     text-decoration: none;
+    }
+.btn-blue:hover { background-color:#03045E; }
+
+.logo-blue {transition:color 0.3s ease;
+    color:#00B4D8 ;
+    font-size: 30px;
+    }
+ .logo-blue:hover{ color:#03045E ; }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
